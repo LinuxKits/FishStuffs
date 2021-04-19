@@ -1,0 +1,3 @@
+function list_menuv1
+ls $argv | sed '\~//~d'
+end
